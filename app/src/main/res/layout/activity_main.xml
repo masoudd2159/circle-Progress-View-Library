@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:layoutDirection="ltr"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="100" />
+
+    <CheckBox
+        android:id="@+id/checkBoxAutoColored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:gravity="center"
+        android:text="Auto Colored" />
+
+    <CheckBox
+        android:id="@+id/checkBoxShowPercent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:gravity="center"
+        android:text="Show Percent" />
+
+    <ir.masouddabbaghi.circleprogressview.CircleProgress
+        android:id="@+id/circleProgress"
+        android:layout_width="256dp"
+        android:layout_height="256dp"
+        android:layout_margin="20dp"
+        android:layoutDirection="ltr"
+        app:circleProgress_AutoColored="true"
+        app:circleProgress_Color="#6A0071"
+        app:circleProgress_StrokeWidth="6dp" />
+
+</LinearLayout>

@@ -1,0 +1,3 @@
+rootProject.name='CircleProgressView'
+include ':app'
+include ':circleprogressview'

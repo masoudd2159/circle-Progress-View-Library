@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CircleProgress">
+        <attr name="circleProgress_StrokeWidth" format="dimension" />
+        <attr name="circleProgress_ShowPercent" format="boolean" />
+        <attr name="circleProgress_AutoColored" format="boolean" />
+        <attr name="circleProgress_Progress" format="integer" />
+        <attr name="circleProgress_Min" format="integer" />
+        <attr name="circleProgress_Max" format="integer" />
+        <attr name="circleProgress_Color" format="color" />
+    </declare-styleable>
+</resources>
